@@ -1,0 +1,334 @@
+/* dre stylesheet */
+
+@import url(http://fonts.googleapis.com/css?family=Asul);
+
+body
+{
+font-family: Arial;
+}
+
+img
+{
+border: none;
+}
+
+table,th,td 
+{
+border-width: 1px;
+border-color: black;
+border-style: solid;
+border-collapse: collapse;
+padding: 5px;
+}
+
+a
+{
+color: #333333;
+}
+
+a:hover
+{
+color: #666666;
+}
+
+a:visited
+{
+color: #333333;
+}
+
+div#main 
+{
+width: 80%;
+margin: auto;
+}
+
+div#page-title
+{
+	width: 100%;
+	font-size: 2.3em;
+	font-weight: 200;
+	text-align: center;
+	letter-spacing: 0.5em;
+	font-family: 'Asul', sans-serif;
+}
+
+div#page-title a {
+	text-decoration: none;
+}
+
+div#credit {
+	width: 100%;
+	text-align: center;
+}
+
+hr#header-separate {
+	height: 1px;
+	border: 0;
+	color: #ccc;
+	background-color: #ccc;
+}
+
+div.question
+{
+	font-size: 1.4em;
+	font-weight: 400;
+}
+
+div#searchwrapper
+{
+margin-top: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: #F5F4E9;
+}
+
+div#issue
+{
+width: 400px;
+float: left;
+text-align: center;
+}
+
+div.suggestions
+{
+font-size: x-small;
+}
+
+div#location
+{
+width: 400px;
+float: right;
+text-align: center;
+}
+
+div#loading
+{
+width:100%;
+text-align:center;
+display: none;
+}
+
+div#prelude
+{
+width:100%;
+text-align:center;
+color: #aaa;
+}
+
+div.loading-image
+{
+width: 100%;
+text-align:center;
+font-size: x-small;
+}
+
+div.result-wrapper
+{
+	padding: 5px;
+}
+
+div.legislator-D
+{
+	width: 30%;
+	padding: 5px;
+	margin: 5px;
+	background-color: #CCCBF7;
+	float: left;
+}
+
+div.legislator-R
+{
+	width: 30%;
+	padding: 5px;
+	margin: 5px;
+	background-color: #F7CBCB;
+	float: left;
+}
+
+div.legislator-I
+{
+	width: 30%;
+	padding: 5px;
+	margin: 5px;
+	background-color: #DEF2DC;
+	float: left;
+}
+
+div.record
+{
+	width: 64%;
+	padding: 5px;
+	margin: 5px;
+	background-color: #EBEBEB;
+	float: right;
+}
+
+div.vote-Yea
+{
+	margin: 5px;
+	padding: 5px 5px 5px 28px;
+	background: url('images/yea.png') no-repeat 5px 5px, #C4F0C2;
+}
+
+div.vote-Nay
+{
+	margin: 5px;
+	padding: 5px 5px 5px 28px;
+	background: url('images/nay.png') no-repeat 5px 5px, #F0C2C2;
+}
+
+div.vote-Abstain
+{
+	margin: 5px;
+	padding: 5px 5px 5px 28px;
+	background: url('images/abstain.png') no-repeat 5px 5px, #DEDEDE;
+}
+
+div.vote-Special
+{
+	margin: 5px;
+	padding: 5px 5px 5px 28px;
+	background: url('images/special.png') no-repeat 5px 5px, #ECD5F5;
+}
+
+
+.title
+{
+	font-variant:small-caps;
+	font-weight:bold;
+	font-size:1.1em;
+	background-color: #DEDEDE;
+	width: 98%;
+	border-bottom: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 12px;
+}
+
+.tweetbutton {
+  inherit: none;
+  height: 16px;
+  display: inline-block;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  /* gradient background -- thanks http://ie.microsoft.com/testdrive/graphics/cssgradientbackgroundmaker/ */
+	background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -ms-linear-gradient(top, #FEFEFE 0%, #DFDFDF 100%);
+	background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -moz-linear-gradient(top, #FEFEFE 0%, #DFDFDF 100%);
+	background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -o-linear-gradient(top, #FEFEFE 0%, #DFDFDF 100%);
+	background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -webkit-gradient(linear, left top, left bottom, color-stop(0, #FEFEFE), color-stop(1, #DFDFDF));
+	background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -webkit-linear-gradient(top, #FEFEFE 0%, #DFDFDF 100%);
+
+  border: 1px solid #cccccc;
+  padding-left: 22px;
+  padding-right: 4px;
+  padding-top: 2px;
+  
+  font-weight: bold;
+  font-size: 0.7em;
+  
+  color: #333333;
+  text-decoration: none;
+}
+
+.tweetbutton:hover {
+	background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -ms-linear-gradient(top, #f7f7f7 0%, #d9d9d9 100%);
+	background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -moz-linear-gradient(top, #f7f7f7 0%, #d9d9d9 100%);
+	background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -o-linear-gradient(top, #f7f7f7 0%, #d9d9d9 100%);
+	background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -webkit-gradient(linear, left top, left bottom, color-stop(0, #f7f7f7), color-stop(1, #d9d9d9));
+	background: url('https://si0.twimg.com/images/dev/cms/intents/bird/bird_blue/bird_16_blue.png') no-repeat 2px 1px, -webkit-linear-gradient(top, #f7f7f7 0%, #d9d9d9 100%);
+}
+
+.none {
+	margin-top: 6px;
+	width: 100%;
+	text-align: center;
+	color: #aaa;
+}
+
+div.summary
+{
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border-left: 1px dotted;
+	padding-left: 5px;
+	font-size: small;
+}
+
+div.summary-legislation
+{
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border-left: 1px dotted;
+	padding-left: 5px;
+	font-size: small;
+}
+
+div.summary-legislation:hover
+{
+	background: url('images/expand.png') no-repeat 100% 100%, #DEDEDE;
+	cursor: pointer;
+}
+
+div.explanation
+{
+	border-top: 1px dotted;
+	margin-top: 5px;
+	font-size: x-small;
+}
+
+acronym
+{
+	border-bottom: 1px dotted;
+}
+
+img.profile
+{
+	float: left;
+	margin-right: 5px;
+}
+
+.button
+{
+    border: 1px solid black;
+    background: #D3D4DE;
+	font-size: x-large;
+}
+
+/******* FORM *******/
+.form{
+	/*margin: 5em auto 3em;
+	width: 300px;*/
+}
+.form table{
+	margin-bottom: 2em;
+}
+.form table td{
+	text-align: left;
+	font-size: 11px;
+	vertical-align: top;
+}
+.form input{
+	border: 1px solid #d0ccc9;
+	background: #fff;
+	color: #5f95ef;
+	font-size: 11px;
+	font-weight: 700;
+	padding-bottom: 2px;
+}
+.form input.text{
+	font-weight: normal;
+	color: #565656;
+	border: 1px solid #9c9c9c;
+	width: 250px;
+	padding: 2px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+.form input.text.active{
+	background: #ddeff6;
+	border: 1px solid #0099d4;
+}
+/******* /FORM *******/
