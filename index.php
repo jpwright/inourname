@@ -45,7 +45,7 @@ function getData(event, issue, location)
 				if(val["twitter_id"].length > 1) {
 					legisBoxCode += '<a href="https://twitter.com/intent/tweet?screen_name='+val["twitter_id"]+'" class="tweetbutton">@'+val["twitter_id"]+'</a><br />';
 				}
-				legisBoxCode += '<a href="http://www.skype.com"><img src="images/skype.png" style="vertical-align: middle; margin-right: 5px;" /></a><a href="skype:914-497-3802?call">'+val["phone"]+'</a><br />';
+				legisBoxCode += '<a href="http://www.skype.com"><img src="images/skype.png" style="vertical-align: middle; margin-right: 5px;" /></a><a href="skype:800-800-8000?call">'+val["phone"]+'</a><br />';
 				legisBoxCode += '</div>'; //Close legislator box
 				
 				legisBoxCode += '<div class="record">'; //Create result div
